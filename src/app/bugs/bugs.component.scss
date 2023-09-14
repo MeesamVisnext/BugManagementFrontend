@@ -1,0 +1,47 @@
+.project-container{
+    border-radius: 20px;
+    border :1px solid;
+    border-color: black;
+    width: 400px;
+    max-height: 700px;
+    min-height: 500px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.div{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.imgContainer{
+    width: 300px;
+    height: 150px;
+}
+.form{
+    border-radius: 20px;
+    border :1px solid;
+    border-color: black;
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.flex{
+    display: flex;
+}
+.project{
+    align-self: center;
+    margin-top: 20px;
+}
+/* Scrollable container for checkboxes */
+.scroll-container {
+    max-height: 150px; /* Set the maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border for aesthetics */
+    padding: 10px; /* Optional: Add padding for spacing */
+  }
+  .error{
+    color:red;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  

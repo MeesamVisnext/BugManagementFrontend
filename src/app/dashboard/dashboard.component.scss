@@ -1,0 +1,87 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+/* Define a class for the logo */
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.mat-toolbar {
+
+    margin-top: 40px;
+    background-color: lightgray
+}
+
+.centered-card {
+    width: 80%;
+
+
+    margin: auto;
+    margin-top: 20px;
+    text-align: center
+}
+
+h2 {
+    color: aqua
+}
+
+.a {
+    display: inline-block;
+    /* Ensure the anchor tags have a block layout */
+    padding: 10px 20px;
+    /* Add padding for spacing and size */
+    border-radius: 30px;
+    /* Apply rounded corners */
+    font-family: "AvenirLTPro", Sans-serif;
+    font-size: 17px;
+    color:black !important;
+
+
+    text-align: center !important;
+    /* Center the text horizontally */
+    text-decoration: none;
+    /* Remove underlines */
+    transition: background-color 0.3s, color 0.3s;
+    /* Add transition effect for smoother hover */
+
+    &:hover {
+        background-color: lightgray;
+        /* Change background color on hover */
+        color: green !important;
+        /* Change text color on hover */
+    }
+}
+.button{
+    border: none ;
+    background-color: transparent;
+}
+.button-SignIn{
+    font-family: "AvenirLTPro", Sans-serif;
+    font-size: 17px;
+    border-radius: 30px;
+    color: green;
+    border-color: green;
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 150px;
+}
+.button-Register{
+    font-family: "AvenirLTPro", Sans-serif;
+    font-size: 17px;
+    border-radius: 30px;
+    color: blue;
+    border-color: blue;
+    background-color: transparent;
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 150px;
+}
+.mat-menu{
+    
+    &-item{
+        font-family: "AvenirLTPro", Sans-serif;
+        font-size: 17px;
+    }
+}

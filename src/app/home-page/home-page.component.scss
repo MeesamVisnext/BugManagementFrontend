@@ -1,0 +1,36 @@
+
+.flex{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 100%;
+}
+.centralize{
+    align-items: center; 
+    height: 100vh;
+}
+.div1{
+    padding: 8rem;
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+}
+.div2{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border: none;
+    color: rgb(29, 29, 223);
+    font-weight: bolder;
+}
+
+.button{
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    width: 150px
+}
